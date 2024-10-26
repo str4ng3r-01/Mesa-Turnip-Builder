@@ -1,13 +1,32 @@
-## © 2024 Shankar Vallabhan A <BR> © 2024 Akhino S Kumar
+# Non-Commercial Open Source License (NCOS License)
 
-## This software, data, and their associated documentation files are subject to the terms and conditions of this LICENSE. Use of this file is permitted only in compliance with the License.
+© 2024 Shankar Vallabhan A  
+© 2024 Akhino S Kumar  
 
-## Permission is hereby granted, free of charge, to any person or entity obtaining a copy of this Software to use, copy, modify, and distribute the Software under the following conditions:
+## License for Non-Commercial Open-Source Use
 
-### 1: The above copyright notice and this permission notice must be included in all copies of the Software.
+This license governs the use of the software, data, and associated documentation files ("Software") in this repository. By obtaining a copy of this Software, you agree to adhere to the terms below.
 
-### 2: The Software must be used exclusively for non-commercial open-source projects. Any attempt to use the Software for commercial purposes without prior written permission from the author is strictly prohibited.
+### Permissions
+Permission is hereby granted, free of charge, to any person or entity obtaining a copy of this Software, to use, copy, modify, and distribute copies or modified versions of the Software, provided that:
 
-# Disclaimer:
+1. **Attribution**  
+   - The above copyright notice, this permission notice, and the disclaimer must appear in all copies, including any modified versions.
 
-## THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+2. **Non-Commercial Use Only**  
+   - The Software may be used exclusively for **non-commercial open-source projects**.  
+   - **Commercial use is strictly prohibited** without prior, written consent from the authors.
+
+### Conditions
+Any person or entity using, modifying, or distributing the Software under this license agrees to the following:
+
+- The Software, in its original or modified form, **may not be used or distributed in any project, product, or derivative work intended for commercial gain**.
+- Distribution in any form must retain the original copyright notice, permission notice, and disclaimer.
+
+### Disclaimer
+THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+### Contact
+For inquiries or requests related to this software, please contact the authors.
