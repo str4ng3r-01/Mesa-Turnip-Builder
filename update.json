@@ -1,6 +1,6 @@
 {
-    "version": "v24.3",
-    "versionCode": 20241026,
+    "version": "v24.3.1024",
+    "versionCode": 261024,
     "zipUrl": "https://github.com/str4ng3r-01/Mesa-Turnip-Builder/releases/download/26_oct_2024/Turnip-MAGISK-KSU-mesa_git.zip",
     "changelog": "https://raw.githubusercontent.com/str4ng3r-01/Mesa-Turnip-Builder/refs/heads/test/UPDATES.md"
   }
