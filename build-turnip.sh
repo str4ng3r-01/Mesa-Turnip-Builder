@@ -82,8 +82,8 @@ ndk_bin="$workdir/$ndkdir/toolchains/llvm/prebuilt/linux-x86_64/bin"
 cat <<EOF >"android-aarch64"
 [binaries]
 ar = '$ndk_bin/llvm-ar'
-c = ['ccache', '$ndk_bin/aarch64-linux-android33-clang', '-fno-semantic-interposition', '-O2']
-cpp = ['ccache', '$ndk_bin/aarch64-linux-android33-clang++', '-fno-semantic-interposition', '-fno-exceptions', '-fno-unwind-tables', '-fno-asynchronous-unwind-tables', '-static-libstdc++', '-O2']
+c = ['ccache', '$ndk_bin/aarch64-linux-android33-clang', '-fno-semantic-interposition', '-O2', '-flto']
+cpp = ['ccache', '$ndk_bin/aarch64-linux-android33-clang++', '-fno-semantic-interposition', '-fno-exceptions', '-fno-unwind-tables', '-fno-asynchronous-unwind-tables', '-static-libstdc++', '-O2', '-flto']
 c_ld = 'lld'
 cpp_ld = 'lld'
 strip = '$ndk_bin/aarch64-linux-android-strip'
@@ -97,7 +97,7 @@ EOF
 
 # Generate build files using Meson
 echo "Generating build files..." $'\n'
-meson build-android-aarch64 --cross-file "$workdir"/"$mesadir"/android-aarch64 -Dbuildtype=release -Db_pie=true -Dplatforms=android -Dplatform-sdk-version=33 -Dandroid-stub=true -Dgallium-drivers= -Dvulkan-drivers=freedreno -Dfreedreno-kmds=kgsl -Db_lto=true &> "$workdir"/meson_log
+meson setup build-android-aarch64 --cross-file "$workdir"/"$mesadir"/android-aarch64 -Dbuildtype=release -Db_pie=true -Dplatforms=android -Dplatform-sdk-version=33 -Dandroid-stub=true -Dgallium-drivers= -Dvulkan-drivers=freedreno -Dfreedreno-kmds=kgsl -Db_lto=true -Dstrip=true &> "$workdir"/meson_log
 
 # Compile build files using Ninja
 echo "Compiling build files..." $'\n'
