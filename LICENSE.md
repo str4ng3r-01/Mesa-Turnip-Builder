@@ -1,4 +1,4 @@
-# Non-Commercial Open Source License (NCOS License)
+# Non-Commercial Open Source License (NCOS)
 
 © 2024 Shankar Vallabhan A  
 © 2024 Akhino S Kumar  
